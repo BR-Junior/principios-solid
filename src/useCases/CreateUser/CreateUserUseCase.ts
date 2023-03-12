@@ -6,9 +6,7 @@ import { ICreateUserRequestDTO } from './CreateUserDTO';
 //   if(data.length == 1) throw new Error('err bom')
 // }
 export class CreateUserUseCase {
-  constructor(
-    private usersRepository: IUsersRepository
-  ){}
+  constructor(private usersRepository: IUsersRepository){}
   
   
   async excute(data: ICreateUserRequestDTO) {
