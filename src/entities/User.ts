@@ -4,7 +4,7 @@ function validacao(data:string){
   if(data.includes('1')) throw new Error('erro rgex')
 }
 export class User {
-  readonly id: string;
+    readonly id: string;
   name: string;
   email: string;
   password: string;
